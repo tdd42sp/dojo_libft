@@ -26,8 +26,8 @@ MU_TEST(teste_ehpositivo_passando_menos1_retorna_falso)
 
 MU_TEST_SUITE(test_suite) 
 {
-	MU_RUN_TEST(teste_ehnumero_passando_10_retorna_verdadeiro);
-	MU_RUN_TEST(teste_ehnumero_passando_menos1_retorna_falso);
+	MU_RUN_TEST(teste_ehpositivo_passando_10_retorna_verdadeiro);
+	MU_RUN_TEST(teste_ehpositivo_passando_menos1_retorna_falso);
 }
 
 int main(int argc, char *argv[]) {
