@@ -2,7 +2,7 @@
 
 int ehpositivo(int);
 
-MU_TEST(teste_ehnumero_passando_10_retorna_verdadeiro)
+MU_TEST(teste_ehpositivo_passando_10_retorna_verdadeiro)
 {
 	int	numero_a_ser_testado = 10;
 	int	resultado_esperado = 1;
@@ -13,7 +13,7 @@ MU_TEST(teste_ehnumero_passando_10_retorna_verdadeiro)
 	mu_assert_int_eq(resultado_esperado, resultado_obtido);
 }
 
-MU_TEST(teste_ehnumero_passando_menos1_retorna_falso)
+MU_TEST(teste_ehpositivo_passando_menos1_retorna_falso)
 {
 	int	numero_a_ser_testado = -1;
 	int	resultado_esperado = 0;
