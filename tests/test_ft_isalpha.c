@@ -1,4 +1,4 @@
-#include "minunit.h"
+#include "minunit/minunit.h"
 
 int ft_isalpha(int c);
 
