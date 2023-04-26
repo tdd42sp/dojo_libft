@@ -20,3 +20,7 @@ To run the tests you can use this command line:
 ```
 gcc ../src/ft_isalpha.c ./test_ft_isalpha.c -o libft.test && ./libft.test
 ```
+
+## Nice refences
+
+- [Unit Test Naming Conventions by Oleksandr Stefanovskyi](https://medium.com/@stefanovskyi/unit-test-naming-conventions-dd9208eadbea)
